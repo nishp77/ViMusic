@@ -2,6 +2,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
     kotlin("multiplatform")
+    kotlin("plugin.serialization") version "1.8.10"
     id("org.jetbrains.compose")
     id("com.squareup.sqldelight") version "1.5.4"
 }
