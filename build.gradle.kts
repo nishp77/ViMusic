@@ -3,6 +3,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
+    id("com.squareup.sqldelight") version "1.5.4"
 }
 
 group = "com.the77tech"
@@ -32,6 +33,7 @@ kotlin {
                 implementation("io.ktor:ktor-client-serialization:$ktorVersion")
                 implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
                 implementation("org.brotli:dec:0.1.2")
+                implementation("com.squareup.sqldelight:sqlite-driver:1.5.4")
 
             }
         }
