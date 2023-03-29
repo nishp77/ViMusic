@@ -1,0 +1,7 @@
+CREATE TABLE Artist (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT,
+    thumbnailUrl TEXT,
+    timestamps INTEGER,
+    bookmaredAt INTEGER
+);
